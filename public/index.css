@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    height: 100vh;
+}
+
+#assignments {
+    padding: 1em;
+}
+
+main {
+    flex-grow: 1;
+}
