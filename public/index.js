@@ -63,7 +63,6 @@ function create_assignment()
     e_card.appendChild( e_assn_due ) ;
     e_card.appendChild( e_assn_name ) ;
     e_card.appendChild( e_assn_class ) ;
-    
 
     let e_assn_link = create_element( 'a', 'assn-link' ) ;
     let e_break = create_element( 'br' ) ;
